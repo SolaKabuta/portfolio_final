@@ -1,6 +1,8 @@
 // import { useState } from 'react'
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+// Mouse trail
+import { MouseTrail } from "@stichiboi/react-elegant-mouse-trail";
 
 
 import './App.css'
@@ -14,6 +16,7 @@ function App() {
   return (
     <>
         <div>
+            <MouseTrail strokeColor={"#ff5722"} lineWidthStart={20}/>
             <Navbar/>
             <HomePage/>
             <Work/>

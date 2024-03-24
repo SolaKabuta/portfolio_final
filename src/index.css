@@ -24,24 +24,17 @@
 a {
   color: white;
   text-decoration: none;
-  transition: 600ms;
+  transition: 500ms;
 }
 a:hover {
   color: orangered;
 }
-
-/*#Home:hover {*/
-/*  color: hotpink;*/
-/*}*/
-/*#Work:hover {*/
-/*  color: dodgerblue;*/
-/*}*/
-/*#About:hover {*/
-/*  color: orange;*/
-/*}*/
-/*#Contact:hover {*/
-/*  color: greenyellow;*/
-/*}*/
+li {
+  transition: 1000ms;
+}
+li:hover {
+  scale: 1.3;
+}
 
 body {
   margin: 0;
@@ -80,6 +73,9 @@ button:focus-visible {
   border: 1px solid white;
   padding: 20px;
   border-radius: 20px;
+}
+.orange:hover {
+  color: orangered;
 }
 
 
