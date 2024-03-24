@@ -25,6 +25,7 @@ a {
   color: white;
   text-decoration: none;
   transition: 500ms;
+  cursor: none;
 }
 a:hover {
   color: orangered;
@@ -74,18 +75,20 @@ button:focus-visible {
   padding: 20px;
   border-radius: 20px;
 }
+.orange {
+  transition: 500ms;
+}
+
 .orange:hover {
   color: orangered;
 }
-
-
+.nocursor {
+  cursor: none;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
   }
   button {
     background-color: #f9f9f9;

@@ -6,7 +6,7 @@ const Navbar = () => {
                 className={'w-screen pt-10 px-[10%] uppercase flex justify-between'}>
                 <div>
                     <img
-                        className={'w-12'}
+                        className={'w-12 ease-in-out duration-700 hover:scale-150'}
                         src={logo}
                         alt="logo Sola Kabuta"/>
                 </div>
