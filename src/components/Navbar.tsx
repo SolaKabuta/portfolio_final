@@ -6,13 +6,14 @@ const Navbar = () => {
                 className={'w-screen pt-10 px-[10%] uppercase flex justify-between'}>
                 <div>
                     <img
-                        className={''}
+                        className={'w-12'}
                         src={logo}
                         alt="logo Sola Kabuta"/>
                 </div>
-                <div>
+                <div
+                    className={'navbar'}>
                     <ul
-                        className={'flex align-middle justify-end gap-5'}>
+                        className={'flex align-middle justify-end gap-5 font-bold'}>
                         <li>
                             <a
                                 id={'Home'}

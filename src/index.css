@@ -27,7 +27,7 @@ a {
   transition: 600ms;
 }
 a:hover {
-  color: lightpink;
+  color: orangered;
 }
 
 /*#Home:hover {*/
@@ -77,8 +77,11 @@ button:focus-visible {
 }
 
 .navbar {
-  background: red;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 20px;
 }
+
 
 @media (prefers-color-scheme: light) {
   :root {

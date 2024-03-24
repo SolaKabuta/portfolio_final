@@ -1,3 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99.968" height="79.974" viewBox="0 0 1280 1024">
-  <image id="logo" x="404" y="395" width="433" height="235" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAASCAYAAAA+PQxvAAABVUlEQVRIib3WPUscYRTF8d+aJQhRCVhYC2KhzVZCymCRQr/BNiJC0liYEMlLEQIGVl3RpApoI2xp40dJE/ALWIRIREJImr0pxpV1WHX2cfR0c+Ec/veZe2eeSkTU0ZLpFAOKaQQ/MY7fOMIkzgr62xhCFa9EhIj4GOlaiIj5W/i/RsRF9x+wUrCTvIbxONHbwAsuv4YdvEwIC9kx96tNvO085OdhG68TQvtVE6vdhV6D2cSbO4TY0aPZqzZkXdexlQzRcxavW9UGPpcIcXAVxE0gMFMiSA2PUkBaeFIiyAQO+wVZRr1EiI5msVYUpIYvdwDR0Xs8KwLS6lErW/tyX+M8yC6m7wFkTK7hbpBFLCWEVhT/Y3drDu/yINPYSwiDf/iT6P2Ep1CJiAf4LrtLpKiGY/xI9J9gqoqNc4hffZgfYlB2ffh2Xnsu27Y2/hbMaWMUW/8B1CW30KTn+DYAAAAASUVORK5CYII="/>
+<svg width="368" height="201" viewBox="0 0 368 201" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_93_2)">
+<path d="M1.11999 0H169.12L179.12 15.25V173C179.12 173 174.62 201.79 149.87 200.54L-0.0100098 200.58L82.55 85.25L1.11999 0Z" fill="white"/>
+<path d="M366.12 0H198.12L188.12 15.25V173C188.12 173 192.62 201.79 217.37 200.54L367.25 200.58L284.69 85.25L366.12 0Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_93_2">
+<rect width="367.25" height="200.58" fill="white"/>
+</clipPath>
+</defs>
 </svg>
