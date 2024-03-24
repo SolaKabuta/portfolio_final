@@ -78,7 +78,6 @@ button:focus-visible {
 
 .navbar {
   background: red;
-
 }
 
 @media (prefers-color-scheme: light) {

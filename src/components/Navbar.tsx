@@ -16,14 +16,13 @@ const Navbar = () => {
                         <li>
                             <a
                                 id={'Home'}
-                                href="#">
+                                href="/">
                                 Home
                             </a>
                         </li>
                         <li>
                             <a
-                                id={'Work'}
-                                href="#work">
+                                href="#Work">
                                 Work
                             </a>
                         </li>
