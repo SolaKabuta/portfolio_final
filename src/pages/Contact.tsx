@@ -5,16 +5,16 @@ const Contact = () => {
             <div
                 className={'w-screen h-screen py-[5%] px-[10%]'}>
                 <div
-                    className={'uppercase'}>
-                    <h2
-                        id={'Work'}
+                    className={'uppercase grid place-content-baseline'}>
+                    <h4
+                        id={'Contact'}
                         className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05]'}>
                         Let's work
                         <span
                             className={'text-orange-600'}>
                             &nbsp;together
-                        </span>
-                    </h2>
+                        </span>.
+                    </h4>
                     <p
                         className={'ease-in-out duration-1000 hover:scale-[1.05]'}>
                         I’m passionate about sharing knowledge and meeting new people. <br/>

@@ -29,15 +29,13 @@ const Navbar = () => {
                         </li>
                         <li>
                             <a
-                                id={'About'}
-                                href="">
+                                href="#About">
                                 About
                             </a>
                         </li>
                         <li>
                             <a
-                                id={'Contact'}
-                                href="">
+                                href="#Contact">
                                 Contact
                             </a>
                         </li>

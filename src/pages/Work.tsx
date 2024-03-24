@@ -1,11 +1,16 @@
 
+
+
 const Work = () => {
+
+
+
     return (
         <>
          <div
             className={'w-screen h-screen py-[5%] px-[10%]'}>
              <div
-                className={'uppercase'}>
+                className={'uppercase grid place-content-baseline'}>
                  <h2
                      id={'Work'}
                      className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05]'}>
@@ -16,7 +21,7 @@ const Work = () => {
                          <span
                             className={'text-orange-600'}>
                          &nbsp;Playground
-                     </span>
+                     </span>.
                      </span>
                  </h2>
                  <p
@@ -30,6 +35,7 @@ const Work = () => {
                  </p>
              </div>
          </div>
+
         </>
     );
 };

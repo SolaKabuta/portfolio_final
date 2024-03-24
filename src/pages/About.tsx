@@ -6,12 +6,12 @@ const About = () => {
                 <div
                     className={'w-screen h-screen py-[5%] px-[10%]'}>
                     <div
-                        className={'uppercase'}>
-                        <h2
-                            id={'Work'}
+                        className={'uppercase grid place-content-baseline'}>
+                        <h3
+                            id={'About'}
                             className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05]'}>
-                            About me
-                        </h2>
+                            About me.
+                        </h3>
                         <p
                             className={'ease-in-out duration-1000 hover:scale-[1.05]'}>
                             My name is Sola <br/>
