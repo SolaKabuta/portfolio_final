@@ -1,4 +1,5 @@
 // import Portrait from '../assets/portrait_opti.jpg'
+import scroll from '../assets/shapes/scroll_down_colors.png'
 import rectangle from '../assets/Rectangle 7.svg'
 
 
@@ -133,6 +134,13 @@ const HomePage = () => {
                         4.3528
                     </span>
                 </p>
+            </div>
+            <div
+                className={''}>
+                <img
+                    className={'scale-[0.2] rotate-btn absolute top-[30vw] left-[30vw]'}
+                    src={scroll}
+                    alt="scroll down button"/>
             </div>
         </>
     );

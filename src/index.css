@@ -85,6 +85,17 @@ button:focus-visible {
 .nocursor {
   cursor: none;
 }
+.rotate-btn {
+  animation: Rotate 10s ease-in-out infinite;
+}
+@keyframes Rotate {
+  0%{
+       rotate: -360deg;
+     }
+  100%{
+    rotate: 360deg;
+  }
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

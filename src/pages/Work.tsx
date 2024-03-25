@@ -14,12 +14,15 @@ const Work = () => {
                  <h2
                      id={'Work'}
                      className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05]'}>
-                     Work <br/>
+                     <span
+                        className={'text-orange-600'}>
+                         Work
+                     </span> <br/>
                      <span
                         className={'text-8xl'}>
                          &
                          <span
-                            className={'text-orange-600'}>
+                            className={''}>
                          &nbsp;Playground
                      </span>.
                      </span>

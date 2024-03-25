@@ -16,7 +16,7 @@ const About = () => {
                             className={'ease-in-out duration-1000 hover:scale-[1.05]'}>
                             My name is Sola <br/>
                             <span
-                                className={'text-orange-600'}>
+                                className={'text-orange-600 animate-pulse'}>
                         (pronounced « sho . la »)
                         </span> <br/>
                             Before I delved into the world of coding, I stirred creativity in unconventional
