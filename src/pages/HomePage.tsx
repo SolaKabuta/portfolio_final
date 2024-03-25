@@ -1,11 +1,13 @@
 // import Portrait from '../assets/portrait_opti.jpg'
 import scroll from '../assets/shapes/scroll_down_colors.png'
+import arrowDown from '../assets/icons/arrow-down.svg'
 import rectangle from '../assets/Rectangle 7.svg'
 
 
 
-
 import { useState, useEffect } from 'react';
+
+// import {isMotionValue} from "framer-motion";
 
 const HomePage = () => {
     const [helloText, setHelloText] = useState('Hello');
@@ -137,10 +139,20 @@ const HomePage = () => {
             </div>
             <div
                 className={''}>
-                <img
-                    className={'scale-[0.2] rotate-btn absolute top-[30vw] left-[30vw]'}
+                <a
+                    href="#Work">
+                    <img
+                    className={'scale-[0.15] rotate-btn absolute top-[30vw] left-[31.8vw]'}
                     src={scroll}
                     alt="scroll down button"/>
+                </a>
+                <a
+                    href="#Work">
+                    <img
+                        className={'absolute left-[50%] bottom-44 animate-bounce hover:animate-ping'}
+                        src={arrowDown}
+                        alt="arrow down"/>
+                </a>
             </div>
         </>
     );

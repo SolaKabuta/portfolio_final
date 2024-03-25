@@ -17,10 +17,10 @@ const Contact = () => {
                     </h4>
                     <p
                         className={'ease-in-out duration-1000 hover:scale-[1.05]'}>
-                        I’m passionate about sharing knowledge and meeting new people. <br/>
-                        I've had the opportunity to share ideas at various events around the globe.
+                        If you are curious about my process or are interested in the details, <br/>
+                        Feel free to reach out to me.
                     </p>
-                        {/*<a*/}
+                    {/*<a*/}
                         {/*    href="mailto:solakabuta@gmail.com">*/}
                         {/*    solakabuta@gmail.com*/}
                         {/*</a>*/}

@@ -70,11 +70,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.navbar {
-  border: 1px solid white;
-  padding: 20px;
-  border-radius: 20px;
-}
 .orange {
   transition: 500ms;
 }
@@ -86,7 +81,11 @@ button:focus-visible {
   cursor: none;
 }
 .rotate-btn {
+  transition: 1s;
   animation: Rotate 10s ease-in-out infinite;
+}
+.rotate-btn:hover {
+  scale: 1.2;
 }
 @keyframes Rotate {
   0%{
