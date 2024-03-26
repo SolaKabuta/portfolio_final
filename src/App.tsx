@@ -11,20 +11,31 @@ import Navbar from "./components/Navbar.tsx";
 import Work from "./pages/Work.tsx";
 import About from "./pages/About.tsx";
 import Contact from "./pages/Contact.tsx";
+// import Footer from "./components/Footer.tsx";
+// import Home_btn from "./components/home_btn.tsx";
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
+        {/*<div*/}
+        {/*        className={'sticky'}>*/}
+        {/*        <Home_btn/>*/}
+        {/*</div>*/}
         <div
             className={'nocursor'}>
-            <MouseTrail strokeColor={"#ff5722"} lineWidthStart={20} lag={0.7} lineDuration={2}/>
+            <MouseTrail className={'mix-blend-difference'} strokeColor={"#ff5722"} lineWidthStart={20} lag={0.7} lineDuration={2}/>
             <Navbar/>
             <HomePage/>
             <Work/>
             <About/>
             <Contact/>
+            {/*<div*/}
+            {/*    className={'sticky left-44'}>*/}
+            {/*    <Home_btn/>*/}
+            {/*</div>*/}
+            {/*<Footer/>*/}
         </div>
     </>
   )

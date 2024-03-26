@@ -11,9 +11,9 @@ const Navbar = () => {
                         alt="logo Sola Kabuta"/>
                 </div>
                 <div
-                    className={'navbar'}>
+                    className={''}>
                     <ul
-                        className={'flex align-middle justify-end gap-5 font-bold'}>
+                        className={'flex align-middle justify-end gap-5'}>
                         <li>
                             <a
                                 id={'Home'}
