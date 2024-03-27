@@ -70,9 +70,11 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
-.orange, p span {
-  transition: 500ms;
+.text-orange-600:hover {
+  color: white;
+}
+.orange, p span, .text-orange-600 {
+  transition: 1000ms;
 }
 
 .orange:hover, p span:hover {

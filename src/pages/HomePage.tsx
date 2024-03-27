@@ -1,7 +1,7 @@
 // import Portrait from '../assets/portrait_opti.jpg'
-import scroll from '../assets/shapes/scroll_down_colors.png'
+// import scroll from '../assets/shapes/scroll_down_colors.png'
 import arrowDown from '../assets/icons/arrow-down.svg'
-import rectangle from '../assets/Rectangle 7.svg'
+// import rectangle from '../assets/Rectangle 7.svg'
 
 
 
@@ -85,16 +85,16 @@ const HomePage = () => {
                     </div>
                 </div>
                 {/*PORTRAIT SHAPES*/}
-                <div>
-                    <img
-                        className={'w-[600px] relative top-72 right-36 portrait'}
-                        src={rectangle}
-                        alt="rectangle shape"/>
-                    <img
-                        className={'w-[200px] relative top-44 right-64'}
-                        src={rectangle}
-                        alt="rectangle shape"/>
-                </div>
+                {/*<div>*/}
+                {/*    <img*/}
+                {/*        className={'w-[600px] relative top-72 right-36 portrait'}*/}
+                {/*        src={rectangle}*/}
+                {/*        alt="rectangle shape"/>*/}
+                {/*    <img*/}
+                {/*        className={'w-[200px] relative top-44 right-64'}*/}
+                {/*        src={rectangle}*/}
+                {/*        alt="rectangle shape"/>*/}
+                {/*</div>*/}
                 {/*PORTRAIT*/}
                 {/*<div*/}
                 {/*    className={'mask'}>*/}
@@ -105,7 +105,7 @@ const HomePage = () => {
                 {/*</div>*/}
             </div>
             <div
-                className={'uppercase flex justify-between gap-5 px-[10%] relative bottom-44'}>
+                className={'uppercase flex justify-between gap-5 px-[10%] relative bottom-44 pt-20'}>
                 <p
                     className={'ease-in-out duration-1000 hover:scale-110'}>
                     <span
@@ -139,13 +139,13 @@ const HomePage = () => {
             </div>
             <div
                 className={''}>
-                <a
-                    href="#Work">
-                    <img
-                    className={'scale-[0.15] rotate-btn absolute top-[30vw] left-[31.8vw]'}
-                    src={scroll}
-                    alt="scroll down button"/>
-                </a>
+                {/*<a*/}
+                {/*    href="#Work">*/}
+                {/*    <img*/}
+                {/*    className={'scale-[0.15] rotate-btn absolute top-[30vw] left-[31.8vw]'}*/}
+                {/*    src={scroll}*/}
+                {/*    alt="scroll down button"/>*/}
+                {/*</a>*/}
                 <a
                     href="#Work">
                     <img

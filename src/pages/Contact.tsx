@@ -1,3 +1,4 @@
+import Footer from "../components/Footer.tsx";
 
 const Contact = () => {
     return (
@@ -54,14 +55,8 @@ const Contact = () => {
                     {/*    Bruxelles / Belgium*/}
                     {/*</p>*/}
                 </div>
-                <div
-                    className={'grid place-content-center relative bottom-0 footer_contact'}>
-                    <p
-                        className={''}>Linkedin</p>
-                    <p>Dribbble</p>
-                    <p>Github</p>
-                </div>
             </div>
+                <Footer/>
         </>
     );
 };
