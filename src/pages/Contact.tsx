@@ -11,19 +11,12 @@ const Contact = () => {
                         id={'Contact'}
                         className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05]'}>
                         Let's work
-                        <span
-                            className={'text-orange-600'}>
-                            &nbsp;together
-                        </span>.
+                        <span className={'text-orange-600'}>&nbsp;together</span>.
                     </h4>
                     <p
                         className={'grid place-content-center text-center ease-in-out duration-1000 hover:scale-[1.05]'}>
-                        <span>
-                            If you are curious about my process or are interested in the details, <br/>
-                        </span>
-                        <span>
-                            Feel free to reach out to me.
-                        </span>
+                        <span>If you are curious about my process or are interested in the details, <br/></span>
+                        <span>Feel free to reach out to me.</span>
                     </p>
                     {/*FORM*/}
                     <div
@@ -38,6 +31,10 @@ const Contact = () => {
                                 <br/>
                                 <div>
                                     <input className={'w-[470px]'} type="text" placeholder={'Email'}/>
+                                </div>
+                                <br/>
+                                <div>
+                                    <input className={'w-[470px] h-52 input-txt'} type="text" placeholder={'Write something'}/>
                                 </div>
                             </form>
 

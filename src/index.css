@@ -111,10 +111,17 @@ button:focus-visible {
 input {
   padding: 20px;
   border-radius: 10px;
+  color: orangered;
+  background: lightslategray;
 }
 input:focus, input:focus-visible {
   outline: none;
 }
+/*.input-txt [placeholder='Write something'] {*/
+/*  position: relative;*/
+/*  color: red;*/
+/*  top: 0;*/
+/*}*/
 
 .footer_contact {
   position: relative;

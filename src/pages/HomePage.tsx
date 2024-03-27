@@ -40,47 +40,24 @@ const HomePage = () => {
                     <div
                         className={'hero_text grid place-content-baseline uppercase'}>
 
-                        <h1 className={'text-6xl pb-20 ease-in-out duration-1000 hover:scale-110'}>
-                    <span
-                        className={''}
-                        id={'hello'}>
-                        {helloText}.
-                    </span>
+                        <h1 className={'text-6xl pb-20 ease-in-out duration-1000 hover:scale-110 hover:-rotate-2'}>
+                            <span className={''} id={'hello'}>{helloText}.</span>
                             <br/>
                             I'm
-                            <span
-                                className={'text-orange-600 pl-2'}>
-                                Sola
-                            </span>.
-                            <span
-                                className={'pl-2 text-lg animate-pulse'}>
-                        (Sho.la)
-                        </span>
+                            <span className={'text-orange-600 pl-2'}>Sola</span>.
+                            <span className={'pl-2 text-lg animate-pulse'}>(Sho.la)</span>
                             {/*<br/> Kabuta*/}
                         </h1>
                         <p
-                            className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05]'}>
+                            className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2'}>
                             Web developer <br/>
-                            <span
-                                className={'text-8xl'}>
-                            & {designer}.
-                        </span>
+                            <span className={''}>& {designer}.</span>
                         </p>
                         <p
-                            className={'ease-in-out duration-1000 hover:scale-[1.05]'}>
-                            <span
-                                className={'orange'}>
-                                Each pixel holds a story, each line of code a puzzle begging to be solved
-                            </span>. <br/>
-                            <span
-                                className={'orange'}>
-                                I'm a developer who sees design as the brushstroke, and a designer who finds elegance in the
-                            logic
-                            </span>. <br/>
-                            <span
-                                className={'orange'}>
-                                Come explore my creations, and let's build something amazing together
-                            </span>.
+                            className={'ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2'}>
+                            <span className={'orange'}>Each pixel holds a story, each line of code a puzzle begging to be solved</span>. <br/>
+                            <span className={'orange'}>I'm a developer who sees design as the brushstroke, and a designer who finds elegance in the logic</span>. <br/>
+                            <span className={'orange'}>Come explore my creations, and let's build something amazing together</span>.
                         </p>
                     </div>
                 </div>
@@ -105,36 +82,18 @@ const HomePage = () => {
                 {/*</div>*/}
             </div>
             <div
-                className={'uppercase flex justify-between gap-5 px-[10%] relative bottom-44 pt-20'}>
+                className={'uppercase flex justify-between gap-5 px-[10%] relative bottom-52 pt-20'}>
                 <p
                     className={'ease-in-out duration-1000 hover:scale-110'}>
-                    <span
-                        className={'orange'}>
-                        last update&nbsp;
-                    </span>
-                    <span
-                        className={'orange'}>
-                        - March 2024
-                    </span>
+                    <span className={'orange'}>last update&nbsp;</span>
+                    <span className={'orange'}>- March 2024</span>
                 </p>
                 <p
                     className={'ease-in-out duration-1000 hover:scale-110'}>
-                <span
-                    className={'orange'}>
-                        Brussels -&nbsp;
-                    </span>
-                    <span
-                        className={'orange'}>
-                        Belgium -&nbsp;
-                    </span>
-                    <span
-                        className={'orange'}>
-                        50.8466 -&nbsp;
-                    </span>
-                    <span
-                        className={'orange'}>
-                        4.3528
-                    </span>
+                    <span className={'orange'}>Brussels -&nbsp;</span>
+                    <span className={'orange'}>Belgium -&nbsp;</span>
+                    <span className={'orange'}>50.8466 -&nbsp;</span>
+                    <span className={'orange'}>4.3528</span>
                 </p>
             </div>
             <div
@@ -149,7 +108,7 @@ const HomePage = () => {
                 <a
                     href="#Work">
                     <img
-                        className={'absolute left-[50%] bottom-44 animate-bounce hover:animate-ping'}
+                        className={'absolute left-[50%] bottom-10 animate-bounce hover:animate-ping'}
                         src={arrowDown}
                         alt="arrow down"/>
                 </a>
