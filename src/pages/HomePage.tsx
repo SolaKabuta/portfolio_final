@@ -82,7 +82,7 @@ const HomePage = () => {
                 {/*</div>*/}
             </div>
             <div
-                className={'uppercase flex justify-between gap-5 px-[10%] relative bottom-52 pt-20'}>
+                className={'hero_footer uppercase flex justify-between gap-5 px-[10%] relative bottom-52 pt-20'}>
                 <p
                     className={'ease-in-out duration-1000 hover:scale-110'}>
                     <span className={'orange'}>last update&nbsp;</span>

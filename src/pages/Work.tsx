@@ -1,6 +1,5 @@
 // import Home_btn from "../components/home_btn.tsx";
 
-
 const Work = () => {
 
 
@@ -19,7 +18,7 @@ const Work = () => {
                      </span>
                  </h2>
                  <p
-                    className={'ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2'}>
+                    className={'hero-txt ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2'}>
                      <span>From elegant websites for small businesses to dynamic web applications for startups, (or for a training purpose)</span>.<br/>
                      <span>each project embodies my passion for creativity, innovation, and excellence in web development.</span> <br/>
                      <span>Whether you're evaluating my skills, or simply curious to see my work</span>, <br/>
@@ -29,7 +28,6 @@ const Work = () => {
                  </p>
              </div>
          </div>
-
         </>
     );
 };

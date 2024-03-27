@@ -1,12 +1,14 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 800;
 
   color-scheme: light dark;
   color: white;
@@ -16,10 +18,15 @@
   -moz-osx-font-smoothing: grayscale;
   /*background: linear-gradient(135deg in hsl shorter hue, #000000, #0F0F0F, #271942, #C19FAA);*/
   /*background-size: 600% 600%;*/
-  background: url("assets/Grid5.jpg");
+  background: url("assets/Grid6.jpg");
   -webkit-animation: BgAnim 50s ease-in-out infinite;
   -moz-animation: BgAnim 50s ease-in-out infinite;
   animation: BgAnim 50s ease-in-out infinite;
+}
+
+/*HERO*/
+.hero_footer, nav {
+  font-weight: 400;
 }
 
 a {

@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar.tsx";
 import Work from "./pages/Work.tsx";
 import About from "./pages/About.tsx";
 import Contact from "./pages/Contact.tsx";
+import HorizontalScrollCarousel from "./components/HorizontalScrollCarousel.tsx";
 // import Footer from "./components/Footer.tsx";
 // import Home_btn from "./components/home_btn.tsx";
 
@@ -29,6 +30,7 @@ function App() {
             <Navbar/>
             <HomePage/>
             <Work/>
+            <HorizontalScrollCarousel/>
             <About/>
             <Contact/>
             {/*<div*/}
