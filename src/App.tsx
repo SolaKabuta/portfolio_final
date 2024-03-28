@@ -33,11 +33,6 @@ function App() {
             <HorizontalScrollCarousel/>
             <About/>
             <Contact/>
-            {/*<div*/}
-            {/*    className={'sticky left-44'}>*/}
-            {/*    <Home_btn/>*/}
-            {/*</div>*/}
-            {/*<Footer/>*/}
         </div>
     </>
   )

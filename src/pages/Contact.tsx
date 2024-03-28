@@ -1,4 +1,3 @@
-import Footer from "../components/Footer.tsx";
 
 const Contact = () => {
     return (
@@ -48,12 +47,8 @@ const Contact = () => {
                     {/*    href='tel:+32 474 73 08 10'>*/}
                     {/*    +32 474 73 08 10*/}
                     {/*</a>*/}
-                    {/*<p>*/}
-                    {/*    Bruxelles / Belgium*/}
-                    {/*</p>*/}
                 </div>
             </div>
-                <Footer/>
         </>
     );
 };
