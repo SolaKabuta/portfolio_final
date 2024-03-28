@@ -23,7 +23,18 @@ This portfolio website is still under development, but it will eventually includ
 - Links to my social media profiles and contact information
 
 
-I'm using React to create a dynamic and interactive user experience. TypeScript ensures code clarity and maintainability. Framer Motion allows me to add subtle animations for a more engaging user experience. Tailwind CSS provides a utility-first approach to styling, making development efficient.
+I'm using React to create a dynamic and interactive user experience. 
+TypeScript ensures code clarity and maintainability. 
+Framer Motion allows me to add subtle animations for a more engaging user experience. 
+Tailwind CSS provides a utility-first approach to styling, making development efficient.
+
+In a near future I'd like to: 
+
+- Add a carousel on the landing page showcasing my toolbox
+- Add MongoDB for the back-end
+- Add smoother animations/transitions
+- Add projects
+
 
 Stay tuned!
 
