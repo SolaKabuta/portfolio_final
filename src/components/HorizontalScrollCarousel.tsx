@@ -75,32 +75,32 @@ const cards: CardType[] = [
     },
     {
         url: "/imgs/abstract/2.jpg",
-        title: "Title 2",
+        title: "Coming soon",
         id: 2,
     },
     {
         url: "/imgs/abstract/3.jpg",
-        title: "Title 3",
+        title: "Coming soon",
         id: 3,
     },
     {
         url: "/imgs/abstract/4.jpg",
-        title: "Title 4",
+        title: "Coming soon",
         id: 4,
     },
     {
         url: "/imgs/abstract/5.jpg",
-        title: "Title 5",
+        title: "Coming soon",
         id: 5,
     },
     {
         url: "/imgs/abstract/6.jpg",
-        title: "Title 6",
+        title: "Coming soon",
         id: 6,
     },
     {
         url: "/imgs/abstract/7.jpg",
-        title: "Title 7",
+        title: "Coming soon",
         id: 7,
     },
 ];
