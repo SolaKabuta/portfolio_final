@@ -1,4 +1,3 @@
-// import Portrait from '../assets/portrait_opti.jpg'
 // import scroll from '../assets/shapes/scroll_down_colors.png'
 import arrowDown from '../assets/icons/arrow-down.svg'
 // import rectangle from '../assets/Rectangle 7.svg'

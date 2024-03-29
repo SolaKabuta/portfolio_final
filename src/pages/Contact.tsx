@@ -13,7 +13,7 @@ const Contact = () => {
                         <span className={'text-orange-600'}>&nbsp;together</span>.
                     </h4>
                     <p
-                        className={'grid place-content-center text-center ease-in-out duration-1000 hover:scale-[1.05]'}>
+                        className={'grid place-content-center text-center ease-out duration-1000 hover:scale-[1.05]'}>
                         <span>If you are curious about my process or are interested in the details, <br/></span>
                         <span>Feel free to reach out to me.</span>
                     </p>

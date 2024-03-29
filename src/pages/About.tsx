@@ -1,12 +1,14 @@
+import Portrait from '../assets/portrait_opti.jpg'
 
 const About = () => {
     return (
         <>
-            <div>
+            <div
+                className={'w-screen h-screen  px-[10%]'}>
                 <div
-                    className={'w-screen h-screen py-[5%] px-[10%]'}>
+                    className={'uppercase flex justify-center gap-56'}>
                     <div
-                        className={'uppercase grid place-content-baseline'}>
+                        className={'w-[60vw]'}>
                         <h3
                             id={'About'}
                             className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2'}>
@@ -33,6 +35,12 @@ const About = () => {
                             <span>as I weave the intricate tapestry of
                             technology, design, and innovation through the world of coding.</span>
                         </p>
+                    </div>
+                    <div>
+                        <img
+                            className={'w-[40vw] rounded-3xl'}
+                            src={Portrait}
+                            alt=" "/>
                     </div>
                 </div>
             </div>
