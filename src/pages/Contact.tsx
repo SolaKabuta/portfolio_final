@@ -35,6 +35,9 @@ const Contact = () => {
                                 <div>
                                     <input className={'w-[510px] h-52 input-txt'} type="text" placeholder={'Write something'}/>
                                 </div>
+                                <button
+                                    className={'send-btn'}
+                                    type={'submit'}>Send</button>
                             </form>
 
                         </div>

@@ -22,14 +22,14 @@ const EmblaCarousel = () => {
                       className={"embla pt-56"} ref={emblaRef}>
                       <div
                           className="embla__container">
-                          <div className="embla__slide"><img src={React} alt=""/></div>
-                          <div className="embla__slide"><img src={TW} alt=""/></div>
-                          <div className="embla__slide"><img src={TS} alt=""/></div>
-                          <div className="embla__slide"><img src={JS} alt=""/></div>
-                          <div className="embla__slide"><img src={SC} alt=""/></div>
-                          <div className="embla__slide"><img src={WB} alt=""/></div>
-                          <div className="embla__slide"><img src={Figma} alt=""/></div>
-                          <div className="embla__slide"><img src={XD} alt=""/></div>
+                          <div className="embla__slide"><img src={React} loading="lazy" alt="React logo"/></div>
+                          <div className="embla__slide"><img src={TW} loading="lazy" alt="Tailwind logo"/></div>
+                          <div className="embla__slide"><img src={TS} loading="lazy" alt="Typescript logo"/></div>
+                          <div className="embla__slide"><img src={JS} loading="lazy" alt="Javascript logo"/></div>
+                          <div className="embla__slide"><img src={SC} loading="lazy" alt="Sass logo"/></div>
+                          <div className="embla__slide"><img src={WB} loading="lazy" alt="Webstorm logo"/></div>
+                          <div className="embla__slide"><img src={Figma} loading="lazy" alt="Figma logo"/></div>
+                          <div className="embla__slide"><img src={XD} loading="lazy" alt="Xd logo"/></div>
                       </div>
                   </div>
               </div>

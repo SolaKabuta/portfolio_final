@@ -8,6 +8,7 @@ const Navbar = () => {
                     <img
                         className={'w-12 ease-in-out duration-700 hover:scale-150'}
                         src={logo}
+                        loading="lazy"
                         alt="logo Sola Kabuta"/>
                 </div>
                 <div

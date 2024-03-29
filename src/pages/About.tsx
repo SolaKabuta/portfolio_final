@@ -38,9 +38,10 @@ const About = () => {
                     </div>
                     <div>
                         <img
-                            className={'w-[40vw] rounded-3xl'}
+                            className={'w-[40vw] h-full rounded-3xl ease-out duration-1000 hover:scale-125'}
                             src={Portrait}
-                            alt=" "/>
+                            loading="lazy"
+                            alt="Portrait of Sola Kabuta"/>
                     </div>
                 </div>
             </div>

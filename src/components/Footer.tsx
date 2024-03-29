@@ -3,9 +3,9 @@ const Footer = () => {
     return (
         <>
             <div
-                className={'w-screen py-[10%] px-[10%]'}>
+                className={'w-screen py-[2%] px-[10%] footer-nav'}>
                     <div
-                        className={'grid place-content-center relative bottom-0 footer_contact'}>
+                        className={'flex justify-around'}>
                         <p className={''}>Linkedin</p>
                         <p>Dribbble</p>
                         <p>Github</p>

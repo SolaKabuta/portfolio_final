@@ -112,6 +112,7 @@ const HomePage = () => {
                     <img
                         className={'absolute left-[50%] bottom-10 animate-bounce hover:animate-ping'}
                         src={arrowDown}
+                        loading="lazy"
                         alt="arrow down"/>
                 </a>
             </div>

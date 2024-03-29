@@ -12,6 +12,7 @@ import Work from "./pages/Work.tsx";
 import About from "./pages/About.tsx";
 import Contact from "./pages/Contact.tsx";
 import HorizontalScrollCarousel from "./components/UI/HorizontalScrollCarousel.tsx";
+import Footer from "./components/Footer.tsx";
 // import Footer from "./components/Footer.tsx";
 // import Home_btn from "./components/home_btn.tsx";
 
@@ -33,6 +34,7 @@ function App() {
             <HorizontalScrollCarousel/>
             <About/>
             <Contact/>
+            <Footer/>
         </div>
     </>
   )
