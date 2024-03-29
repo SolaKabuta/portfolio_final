@@ -4,8 +4,7 @@ import arrowDown from '../assets/icons/arrow-down.svg'
 // import rectangle from '../assets/Rectangle 7.svg'
 
 
-
-import { useState, useEffect } from 'react';
+import {useState, useEffect} from 'react';
 
 // import {isMotionValue} from "framer-motion";
 
@@ -25,7 +24,7 @@ const HomePage = () => {
 
     useEffect(() => {
         const intervalId = setInterval(() => {
-            setDesigner(prevText => prevText === 'Designer' ? 'Dreamer' : 'Designer');
+            setDesigner(prevText => prevText == 'Designer' ? 'Dreamer' || 'Photographer': 'Designer');
         }, 3050); // Change every second
 
         return () => clearInterval(intervalId); // Cleanup function

@@ -43,5 +43,6 @@ As I continue to develop this portfolio, I'll be adding more content and functio
 #### Screenshots:
 
 ![](./src/assets/projects/screenshots/Sola/portfolio_landing.gif)
-![](./screenshot.jpg)
-![](./screenshot.jpg)
+
+[//]: # (![]&#40;./screenshot.jpg&#41;)
+[//]: # (![]&#40;./screenshot.jpg&#41;)
