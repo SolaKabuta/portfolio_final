@@ -30,10 +30,10 @@ Tailwind CSS provides a utility-first approach to styling, making development ef
 
 In a near future I'd like to: 
 
-- Add a carousel on the landing page showcasing my toolbox
-- Add MongoDB for the back-end
+- Add a DB
 - Add smoother animations/transitions
 - Add projects
+- Design and build responsive
 
 
 Stay tuned!
