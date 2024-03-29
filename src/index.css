@@ -123,25 +123,38 @@ button:focus-visible {
   width: 100vw;
 }
 .embla__slide {
-  flex: 10 0 15%;
+  flex: 20 0 15%;
   min-width: 0;
 }
 
 
 /*CONTACT FORM*/
+.names {
+  @apply flex gap-8
+}
+.names input {
+  @apply w-[240px]
+}
 input {
-  padding: 20px;
-  border-radius: 10px;
-  color: orangered;
+  /*padding: 20px;*/
+  /*border-radius: 10px;*/
+  /*color: orangered;*/
+  @apply w-[510px] p-5 rounded-2xl text-orange-600
 }
 
 input::placeholder {
-  color: orangered;
-  opacity: 40%;
+  @apply text-orange-600
 }
 
 input:focus, input:focus-visible {
+  color: orangered;
   outline: none;
+}
+input:hover {
+  @apply text-orange-600
+}
+.user-text {
+  @apply h-52
 }
 .send-btn {
   @apply mt-8 border-orange-600

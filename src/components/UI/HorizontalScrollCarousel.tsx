@@ -98,9 +98,4 @@ const cards: CardType[] = [
         title: "Coming soon",
         id: 6,
     },
-    {
-        url: "/imgs/abstract/7.jpg",
-        title: "Coming soon",
-        id: 7,
-    },
 ];

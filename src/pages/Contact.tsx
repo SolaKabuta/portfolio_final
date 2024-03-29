@@ -19,28 +19,29 @@ const Contact = () => {
                     </p>
                     {/*FORM*/}
                     <div
-                        className={'grid place-content-center pt-20'}>
-                        <div
-                            className={''}>
+                        className={'flex justify-center pt-20'}>
                             <form action="">
-                                <div>
+                                <div
+                                    className={'names'}>
                                     <input type="text" placeholder={'First name'}/>
-                                    <input className={'ml-10'} type="text" placeholder={'Second name'}/>
+                                    <input type="text" placeholder={'Second name'}/>
                                 </div>
                                 <br/>
                                 <div>
-                                    <input className={'w-[510px]'} type="text" placeholder={'janedoe@gmail.com'}/>
+                                    <input type="text" placeholder={'janedoe@gmail.com'}/>
                                 </div>
                                 <br/>
                                 <div>
-                                    <input className={'w-[510px] h-52 input-txt'} type="text" placeholder={'Write something'}/>
+                                    <input className={' h-52'} type="text" placeholder={'Write something'}/>
                                 </div>
-                                <button
-                                    className={'send-btn'}
-                                    type={'submit'}>Send</button>
+                                <div
+                                    className={'flex justify-center'}>
+                                    <button
+                                        className={'send-btn'}
+                                        type={'submit'}>Send
+                                    </button>
+                                </div>
                             </form>
-
-                        </div>
                     </div>
                     {/*<a*/}
                     {/*    href="mailto:solakabuta@gmail.com">*/}
