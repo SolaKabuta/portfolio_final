@@ -1,6 +1,6 @@
 // import Home_btn from "../components/home_btn.tsx";
 
-import EmblaCarousel from "../components/EmblaCarousel.tsx";
+import EmblaCarousel from "../components/UI/EmblaCarousel.tsx";
 
 const Work = () => {
 
