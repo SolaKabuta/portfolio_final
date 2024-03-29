@@ -114,6 +114,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/*EMBLA CAROUSEL*/
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  width: 100vw;
+}
+.embla__slide {
+  flex: 0 0 30%;
+  min-width: 0;
+}
+
+
 /*FOOTER*/
 input {
   padding: 20px;

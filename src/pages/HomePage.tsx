@@ -35,29 +35,32 @@ const HomePage = () => {
             <div
                 className={'flex justify-center align-middle'}>
                 <div
-                    className={'w-screen h-screen py-[10%] px-[10%] background_anim'}>
+                    className={'w-screen h-screen py-[10%] px-[10%]'}>
                     <div
-                        className={'hero_text grid place-content-baseline uppercase'}>
+                        className={'flex justify-between'}>
+                        <div
+                            className={'hero_text uppercase'}>
 
-                        <h1 className={'text-6xl pb-20 ease-in-out duration-1000 hover:scale-110 hover:-rotate-2'}>
-                            <span className={''} id={'hello'}>{helloText}.</span>
-                            <br/>
-                            I'm
-                            <span className={'text-orange-600 pl-2'}>Sola</span>.
-                            <span className={'pl-2 text-lg animate-pulse'}>(Sho.la)</span>
-                            {/*<br/> Kabuta*/}
-                        </h1>
-                        <p
-                            className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2'}>
-                            Web developer <br/>
-                            <span className={''}>& {designer}.</span>
-                        </p>
-                        <p
-                            className={'ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2'}>
-                            <span className={'orange'}>Each pixel holds a story, each line of code a puzzle begging to be solved</span>. <br/>
-                            <span className={'orange'}>I'm a developer who sees design as the brushstroke, and a designer who finds elegance in the logic</span>. <br/>
-                            <span className={'orange'}>Come explore my creations, and let's build something amazing together</span>.
-                        </p>
+                            <h1 className={'text-6xl pb-20 ease-in-out duration-1000 hover:scale-110 hover:-rotate-2'}>
+                                <span className={''} id={'hello'}>{helloText}.</span>
+                                <br/>
+                                I'm
+                                <span className={'text-orange-600 pl-2'}>Sola</span>.
+                                <span className={'pl-2 text-lg animate-pulse'}>(Sho.la)</span>
+                                {/*<br/> Kabuta*/}
+                            </h1>
+                            <p
+                                className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2'}>
+                                Web developer <br/>
+                                <span className={''}>& {designer}.</span>
+                            </p>
+                            <p
+                                className={'ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2'}>
+                                <span className={'orange'}>Each pixel holds a story, each line of code a puzzle begging to be solved</span>. <br/>
+                                <span className={'orange'}>I'm a developer who sees design as the brushstroke, and a designer who finds elegance in the logic</span>. <br/>
+                                <span className={'orange'}>Come explore my creations, and let's build something amazing together</span>.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 {/*PORTRAIT SHAPES*/}
@@ -79,6 +82,7 @@ const HomePage = () => {
                 {/*        src={Portrait}*/}
                 {/*        alt=""/>*/}
                 {/*</div>*/}
+
             </div>
             <div
                 className={'hero_footer uppercase flex justify-between gap-5 px-[10%] relative bottom-52 pt-20'}>

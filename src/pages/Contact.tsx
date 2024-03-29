@@ -29,11 +29,11 @@ const Contact = () => {
                                 </div>
                                 <br/>
                                 <div>
-                                    <input className={'w-[470px]'} type="text" placeholder={'Email'}/>
+                                    <input className={'w-[510px]'} type="text" placeholder={'Email'}/>
                                 </div>
                                 <br/>
                                 <div>
-                                    <input className={'w-[470px] h-52 input-txt'} type="text" placeholder={'Write something'}/>
+                                    <input className={'w-[510px] h-52 input-txt'} type="text" placeholder={'Write something'}/>
                                 </div>
                             </form>
 

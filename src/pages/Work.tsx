@@ -1,5 +1,7 @@
 // import Home_btn from "../components/home_btn.tsx";
 
+import EmblaCarousel from "../components/EmblaCarousel.tsx";
+
 const Work = () => {
 
 
@@ -27,6 +29,7 @@ const Work = () => {
                      <span>the fusion of design and functionality that defines my approach to web development</span>.
                  </p>
              </div>
+             <EmblaCarousel/>
          </div>
         </>
     );
