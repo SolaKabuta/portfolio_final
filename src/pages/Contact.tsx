@@ -29,7 +29,7 @@ const Contact = () => {
                                 </div>
                                 <br/>
                                 <div>
-                                    <input className={'w-[510px]'} type="text" placeholder={'Email'}/>
+                                    <input className={'w-[510px]'} type="text" placeholder={'janedoe@gmail.com'}/>
                                 </div>
                                 <br/>
                                 <div>
