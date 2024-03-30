@@ -10,7 +10,7 @@
     @apply w-[60vw]
 }
 
-h3 {
+.main h3 {
   @apply  text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2
 }
 
