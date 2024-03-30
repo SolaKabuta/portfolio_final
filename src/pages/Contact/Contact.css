@@ -1,3 +1,16 @@
+
+.contact-grid {
+    @apply grid place-content-center
+}
+
+#Contact {
+    @apply text-9xl text-center pb-20 ease-in-out duration-1000 hover:scale-[1.05]
+}
+
 .contact-text {
     @apply grid place-content-center pb-10 text-center ease-out duration-1000 hover:scale-[1.05]
+}
+
+.together {
+    @apply text-orange-600
 }

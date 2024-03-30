@@ -6,14 +6,13 @@ const Contact = () => {
     return (
         <>
             <div
-                className={'w-screen h-screen py-[5%] px-[10%]'}>
+                className={'main'}>
                 <div
-                    className={'uppercase grid place-content-center'}>
+                    className={'contact-grid'}>
                     <h4
-                        id={'Contact'}
-                        className={'text-9xl text-center pb-20 ease-in-out duration-1000 hover:scale-[1.05]'}>
+                        id={'Contact'}>
                         Let's work
-                        <span className={'text-orange-600'}>&nbsp;together</span>.
+                        <span className={'together'}>&nbsp;together</span>.
                     </h4>
                     <p
                         className={'contact-text'}>
