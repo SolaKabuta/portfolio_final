@@ -34,6 +34,8 @@ In a near future I'd like to:
 - Add smoother animations/transitions
 - Add projects
 - Design and build responsive
+- Get higher performance
+- Fix Google Fonts performance (so it's actually disabled)
 
 
 Stay tuned!
