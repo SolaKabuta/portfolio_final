@@ -1,0 +1,31 @@
+.main {
+    @apply py-1
+}
+
+.flexbox {
+    @apply flex justify-center gap-56
+}
+
+.div-left {
+    @apply w-[60vw]
+}
+
+h3 {
+  @apply  text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2
+}
+
+.me {
+    @apply ease-in-out duration-1000 hover:text-orange-600
+}
+
+.div-left p {
+    @apply ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2
+}
+
+.pronounced {
+    @apply text-orange-600 animate-pulse
+}
+
+.portrait {
+    @apply w-[40vw] h-full rounded-3xl ease-out duration-700 hover:scale-110
+}

@@ -2,6 +2,10 @@
     @apply w-screen h-screen py-[10%] px-[10%] uppercase
 }
 
+p span {
+    @apply ease-in-out duration-700 hover:text-orange-600
+}
+
 h1 {
     @apply text-6xl pb-20 ease-in-out duration-1000 hover:scale-110 hover:-rotate-2
 }
@@ -18,12 +22,16 @@ h1 {
     @apply pl-2 text-lg animate-pulse
 }
 
+.designer {
+    @apply hover:text-orange-600
+}
+
 .main-title, .main-text {
     @apply text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2
 }
 
 .main-text {
-   @apply text-sm ease-in-out duration-1000
+   @apply text-base ease-in-out duration-1000
 }
 .main-text span {
     @apply hover:text-orange-600

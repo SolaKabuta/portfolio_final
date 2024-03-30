@@ -24,19 +24,13 @@
   animation: BgAnim 120s ease-in-out infinite;
 }
 
-img {
-  width: auto;
-  height: auto;
-}
-
-
-
 a {
   color: white;
   text-decoration: none;
   transition: 500ms;
   cursor: none;
 }
+
 a:hover {
   color: orangered;
 }
@@ -56,10 +50,6 @@ body {
   color: white;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
 button {
   border-radius: 8px;
@@ -77,16 +67,11 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.orange, p span {
-  transition: 1000ms;
-}
-
-.orange:hover, p span:hover {
-  color: orangered;
-}
+/* CURSOR */
 .nocursor {
   cursor: none;
 }
+
 @keyframes Rotate {
   0%{
        rotate: -360deg;

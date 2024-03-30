@@ -11,8 +11,9 @@ const Work = () => {
                  <h2
                      id={'Work'}>
                      <span className={'Work'}>Work</span> <br/>
-                     <span>&<span>&nbsp;Playground</span>.
-                     </span>
+                     <p>
+                         &<span className={'play'}>&nbsp;Playground</span>.
+                     </p>
                  </h2>
                  <p
                     className={'work-text'}>

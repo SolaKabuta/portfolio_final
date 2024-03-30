@@ -1,24 +1,23 @@
 import Portrait from '../../assets/images/portrait_opti.jpg'
+import './About.css'
 
 const About = () => {
     return (
         <>
             <div
-                className={'w-screen h-screen px-[10%]'}>
+                className={'main'}>
                 <div
-                    className={'uppercase flex justify-center gap-56'}>
+                    className={'flexbox'}>
                     <div
-                        className={'w-[60vw]'}>
+                        className={'div-left'}>
                         <h3
-                            id={'About'}
-                            className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2'}>
-                            About <span className={'orange'}>me</span>.
+                            id={'About'}>
+                            About <span className={'me'}>me</span>.
                         </h3>
-                        <p
-                            className={'ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2'}>
+                        <p>
                             My name is Sola <br/>
-                            <span className={'text-orange-600 animate-pulse'}>(pronounced « sho . la »)</span> <br/>
-                            <span className={'orange'}>Before I delved into the world of coding, I stirred creativity in unconventional
+                            <span className={'pronounced'}>(pronounced « sho . la »)</span> <br/>
+                            <span>Before I delved into the world of coding, I stirred creativity in unconventional
                             realms</span>. <br/>
                             <span>As a former bartender specializing in crafting intricate cocktails, I found artistry in
                             mixology,
@@ -38,7 +37,7 @@ const About = () => {
                     </div>
                     <div>
                         <img
-                            className={'w-[40vw] h-full rounded-3xl ease-out duration-700 hover:scale-110'}
+                            className={'portrait'}
                             src={Portrait}
                             loading="lazy"
                             alt="Portrait of Sola Kabuta"/>

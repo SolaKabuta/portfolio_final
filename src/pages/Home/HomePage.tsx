@@ -2,7 +2,7 @@ import arrowDown from '../../assets/icons/arrow-down.svg'
 
 
 import {useState, useEffect} from 'react';
-import './Home.css'
+import './HomePage.css'
 
 // import {isMotionValue} from "framer-motion";
 
@@ -44,7 +44,7 @@ const HomePage = () => {
                                 <p
                                     className={'main-title'}>
                                     Web developer <br/>
-                                    <span className={''}>& {designer}.</span>
+                                    <span className={'designer'}>& {designer}</span>.
                                 </p>
                                     <p
                                         className={'main-text'}>
