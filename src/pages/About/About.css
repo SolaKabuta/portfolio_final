@@ -3,7 +3,7 @@
 }
 
 .flexbox {
-    @apply flex justify-center gap-56
+    @apply flex justify-center items-center gap-56
 }
 
 .div-left {
@@ -27,5 +27,5 @@
 }
 
 .portrait {
-    @apply w-[40vw] h-full rounded-3xl ease-out duration-700 hover:scale-110
+    @apply w-[50vw] relative left-20 h-full rounded-3xl ease-out duration-700 hover:scale-110
 }
