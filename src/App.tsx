@@ -6,13 +6,12 @@ import { MouseTrail } from "@stichiboi/react-elegant-mouse-trail";
 
 
 import './App.css'
-import HomePage from "./pages/HomePage.tsx";
-import Navbar from "./components/Navbar.tsx";
-import Work from "./pages/Work.tsx";
-import About from "./pages/About.tsx";
-import Contact from "./pages/Contact.tsx";
-import HorizontalScrollCarousel from "./components/UI/HorizontalScrollCarousel.tsx";
-import Footer from "./components/Footer.tsx";
+import HomePage from "./pages/Home/HomePage.tsx";
+import Navbar from "./components/UI/Navbar/Navbar.tsx";
+import Work from "./pages/Work/Work.tsx";
+import About from "./pages/About/About.tsx";
+import Contact from "./pages/Contact/Contact.tsx";
+import HorizontalScrollCarousel from "./components/Features/WorkCarousel/HorizontalScrollCarousel.tsx";
 // import Footer from "./components/Footer.tsx";
 // import Home_btn from "./components/home_btn.tsx";
 
@@ -34,7 +33,6 @@ function App() {
             <HorizontalScrollCarousel/>
             <About/>
             <Contact/>
-            <Footer/>
         </div>
     </>
   )

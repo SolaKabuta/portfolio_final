@@ -1,0 +1,24 @@
+/*FOOTER*/
+.footer-nav {
+    @apply bg-black uppercase
+}
+/*.input-txt [placeholder='Write something'] {*/
+/*  position: relative;*/
+/*  color: red;*/
+/*  top: 0;*/
+/*}*/
+
+.footer_contact {
+    position: relative;
+    bottom: 0;
+}
+.footer_contact p {
+    text-transform: uppercase;
+    background: black;
+    border: 1px solid gray;
+    width: 100vw;
+    padding: 50px;
+}
+.footer_contact p:hover {
+    background: dodgerblue;
+}

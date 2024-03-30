@@ -1,0 +1,9 @@
+/*EMBLA CAROUSEL*/
+.embla__container {
+    display: flex;
+    width: 100vw;
+}
+.embla__slide {
+    flex: 20 0 15%;
+    min-width: 0;
+}

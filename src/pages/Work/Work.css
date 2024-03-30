@@ -1,0 +1,11 @@
+h2 {
+    @apply text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2
+}
+
+.Work {
+    @apply text-orange-600
+}
+
+.work-text {
+    @apply ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2
+}

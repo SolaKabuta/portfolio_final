@@ -1,4 +1,5 @@
-import logo from '../../assets/icons/logo/logo_white.svg'
+import logo from '../../../assets/icons/logo/logo_white.svg'
+import './Navbar.css'
 const Navbar = () => {
     return (
         <>

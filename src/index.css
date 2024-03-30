@@ -18,10 +18,10 @@
   -moz-osx-font-smoothing: grayscale;
   /*background: linear-gradient(135deg in hsl shorter hue, #000000, #0F0F0F, #271942, #C19FAA);*/
   /*background-size: 600% 600%;*/
-  background: url("assets/Grid6.jpg");
-  -webkit-animation: BgAnim 50s ease-in-out infinite;
-  -moz-animation: BgAnim 50s ease-in-out infinite;
-  animation: BgAnim 50s ease-in-out infinite;
+  background: url("assets/images/Grid6.jpg");
+  -webkit-animation: BgAnim 120s ease-in-out infinite;
+  -moz-animation: BgAnim 120s ease-in-out infinite;
+  animation: BgAnim 120s ease-in-out infinite;
 }
 
 img {
@@ -29,10 +29,7 @@ img {
   height: auto;
 }
 
-/*HERO*/
-.hero_footer, nav {
-  font-weight: 400;
-}
+
 
 a {
   color: white;
@@ -75,17 +72,12 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-.text-orange-600:hover {
-  color: white;
-}
-.orange, p span, .text-orange-600 {
+
+.orange, p span {
   transition: 1000ms;
 }
 
@@ -114,20 +106,6 @@ button:focus-visible {
 }
 
 
-/*EMBLA CAROUSEL*/
-
-/*.embla {*/
-/*}*/
-.embla__container {
-  display: flex;
-  width: 100vw;
-}
-.embla__slide {
-  flex: 20 0 15%;
-  min-width: 0;
-}
-
-
 /*CONTACT FORM*/
 .names {
   @apply flex gap-8
@@ -136,10 +114,7 @@ button:focus-visible {
   @apply w-[240px]
 }
 input {
-  /*padding: 20px;*/
-  /*border-radius: 10px;*/
-  /*color: orangered;*/
-  @apply w-[510px] p-5 rounded-2xl text-orange-600
+  @apply w-[510px] p-5 rounded-2xl text-orange-600 bg-gray-800
 }
 
 input::placeholder {
@@ -157,33 +132,9 @@ input:hover {
   @apply h-52
 }
 .send-btn {
-  @apply mt-8 border-orange-600
+  @apply mt-8 border-orange-600 ease-in-out duration-700 hover:border-blue-800
 }
 
-/*FOOTER*/
-.footer-nav {
-  @apply bg-black uppercase
-}
-/*.input-txt [placeholder='Write something'] {*/
-/*  position: relative;*/
-/*  color: red;*/
-/*  top: 0;*/
-/*}*/
-
-.footer_contact {
-  position: relative;
-  bottom: 0;
-}
-.footer_contact p {
-  text-transform: uppercase;
-  background: black;
-  border: 1px solid gray;
-  width: 100vw;
-  padding: 50px;
-}
-.footer_contact p:hover {
-  background: dodgerblue;
-}
 /*Animated background*/
 
 @-webkit-keyframes BgAnim {
@@ -201,9 +152,3 @@ input:hover {
   50%{background-position:48% 100%}
   100%{background-position:53% 0}
 }
-
-
-/*.hero_text {*/
-/*  padding: 10%;*/
-/*  background: url("assets/portfolio_opti.jpg");*/
-/*}*/
