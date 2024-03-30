@@ -1,0 +1,3 @@
+.contact-text {
+    @apply grid place-content-center pb-10 text-center ease-out duration-1000 hover:scale-[1.05]
+}

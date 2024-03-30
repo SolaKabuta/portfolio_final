@@ -1,0 +1,24 @@
+/*CONTACT FORM*/
+.names {
+    @apply flex gap-8
+}
+.names input {
+    @apply w-[240px]
+}
+input {
+    @apply w-[510px] p-20 rounded-2xl text-orange-600 bg-gray-800
+}
+
+input::placeholder, input:focus, input:focus-visible {
+    @apply text-orange-600 outline-0
+}
+
+input:hover {
+    @apply text-orange-600
+}
+.user-text {
+    @apply h-52
+}
+.send-btn {
+    @apply mt-8 border-orange-600 ease-in-out duration-700 hover:border-blue-800
+}
