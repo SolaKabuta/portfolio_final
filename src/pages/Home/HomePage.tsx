@@ -1,6 +1,4 @@
-// import scroll from '../assets/shapes/scroll_down_colors.png'
-import arrowDown from '../assets/icons/arrow-down.svg'
-// import rectangle from '../assets/Rectangle 7.svg'
+import arrowDown from '../../assets/icons/arrow-down.svg'
 
 
 import {useState, useEffect} from 'react';
@@ -23,7 +21,7 @@ const HomePage = () => {
 
     useEffect(() => {
         const intervalId = setInterval(() => {
-            setDesigner(prevText => prevText == 'Designer' ? 'Dreamer' || 'Photographer': 'Designer');
+            setDesigner(prevText => prevText == 'Designer' ? 'Dreamer': 'Designer');
         }, 3050); // Change every second
 
         return () => clearInterval(intervalId); // Cleanup function
@@ -46,7 +44,6 @@ const HomePage = () => {
                                 I'm
                                 <span className={'text-orange-600 pl-2'}>Sola</span>.
                                 <span className={'pl-2 text-lg animate-pulse'}>(Sho.la)</span>
-                                {/*<br/> Kabuta*/}
                             </h1>
                             <p
                                 className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05] hover:-rotate-2'}>
@@ -62,26 +59,6 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                {/*PORTRAIT SHAPES*/}
-                {/*<div>*/}
-                {/*    <img*/}
-                {/*        className={'w-[600px] relative top-72 right-36 portrait'}*/}
-                {/*        src={rectangle}*/}
-                {/*        alt="rectangle shape"/>*/}
-                {/*    <img*/}
-                {/*        className={'w-[200px] relative top-44 right-64'}*/}
-                {/*        src={rectangle}*/}
-                {/*        alt="rectangle shape"/>*/}
-                {/*</div>*/}
-                {/*PORTRAIT*/}
-                {/*<div*/}
-                {/*    className={'mask'}>*/}
-                {/*    <img*/}
-                {/*        className={'scale-[0.2]'}*/}
-                {/*        src={Portrait}*/}
-                {/*        alt=""/>*/}
-                {/*</div>*/}
-
             </div>
             <div
                 className={'hero_footer uppercase flex justify-between gap-5 px-[10%] relative bottom-52 pt-20'}>
@@ -98,15 +75,7 @@ const HomePage = () => {
                     <span className={'orange'}>4.3528</span>
                 </p>
             </div>
-            <div
-                className={''}>
-                {/*<a*/}
-                {/*    href="#Work">*/}
-                {/*    <img*/}
-                {/*    className={'scale-[0.15] rotate-btn absolute top-[30vw] left-[31.8vw]'}*/}
-                {/*    src={scroll}*/}
-                {/*    alt="scroll down button"/>*/}
-                {/*</a>*/}
+            <div>
                 <a
                     href="#Work">
                     <img

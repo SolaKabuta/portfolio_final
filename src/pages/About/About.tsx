@@ -1,10 +1,10 @@
-import Portrait from '../assets/portrait_opti.jpg'
+import Portrait from '../../assets/images/portrait_opti.jpg'
 
 const About = () => {
     return (
         <>
             <div
-                className={'w-screen h-screen  px-[10%]'}>
+                className={'w-screen h-screen px-[10%]'}>
                 <div
                     className={'uppercase flex justify-center gap-56'}>
                     <div

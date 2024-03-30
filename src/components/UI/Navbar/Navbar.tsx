@@ -1,4 +1,4 @@
-import logo from '../assets/icons/logo/logo_white.svg'
+import logo from '../../assets/icons/logo/logo_white.svg'
 const Navbar = () => {
     return (
         <>
@@ -18,7 +18,7 @@ const Navbar = () => {
                         <li>
                             <a
                                 id={'Home'}
-                                href="/">
+                                href="/public">
                                 Home
                             </a>
                         </li>

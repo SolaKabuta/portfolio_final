@@ -1,3 +1,4 @@
+import Footer from "../../components/UI/Footer/Footer.tsx";
 
 const Contact = () => {
     return (
@@ -8,18 +9,18 @@ const Contact = () => {
                     className={'uppercase grid place-content-center'}>
                     <h4
                         id={'Contact'}
-                        className={'text-9xl pb-20 ease-in-out duration-1000 hover:scale-[1.05]'}>
+                        className={'text-9xl text-center pb-20 ease-in-out duration-1000 hover:scale-[1.05]'}>
                         Let's work
                         <span className={'text-orange-600'}>&nbsp;together</span>.
                     </h4>
                     <p
-                        className={'grid place-content-center text-center ease-out duration-1000 hover:scale-[1.05]'}>
+                        className={'grid place-content-center pb-10 text-center ease-out duration-1000 hover:scale-[1.05]'}>
                         <span>If you are curious about my process or are interested in the details, <br/></span>
                         <span>Feel free to reach out to me.</span>
                     </p>
                     {/*FORM*/}
                     <div
-                        className={'flex justify-center pt-20'}>
+                        className={'flex justify-center px-20'}>
                             <form action="">
                                 <div
                                     className={'names'}>
@@ -37,7 +38,7 @@ const Contact = () => {
                                 <div
                                     className={'flex justify-center'}>
                                     <button
-                                        className={'send-btn'}
+                                        className={'send-btn '}
                                         type={'submit'}>Send
                                     </button>
                                 </div>
@@ -53,6 +54,7 @@ const Contact = () => {
                     {/*</a>*/}
                 </div>
             </div>
+                <Footer/>
         </>
     );
 };
