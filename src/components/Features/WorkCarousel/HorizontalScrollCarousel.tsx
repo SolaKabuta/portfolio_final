@@ -38,7 +38,7 @@ const Card = ({ card }: { card: CardType }) => {
     return (
         <div
             key={card.id}
-            className="group relative h-[450px] w-[450px] overflow-hidden bg-neutral-200"
+            className="group relative h-[450px] w-[450px] overflow-hidden bg-gray-900"
         >
             <div
                 style={{
@@ -70,7 +70,7 @@ type CardType = {
 const cards: CardType[] = [
     {
         url: "../src/assets/projects/screenshots/Coppens_Hero.jpg",
-        title: "Cabinet Coppens & Associés",
+        title: "Coming soon",
         id: 1,
     },
     {
