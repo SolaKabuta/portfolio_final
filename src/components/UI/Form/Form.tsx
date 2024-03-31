@@ -18,7 +18,7 @@ const Form = () => {
                         </div>
                         <br/>
                         <div>
-                            <input type="text" placeholder={'janedoe@gmail.com'}/>
+                            <input type="text" placeholder={'Email'}/>
                         </div>
                         <br/>
                         <div>

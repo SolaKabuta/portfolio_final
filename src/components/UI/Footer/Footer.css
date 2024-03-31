@@ -1,21 +1,6 @@
 /*FOOTER*/
 .footer-nav {
-    @apply bg-gray-800 uppercase ease-in-out duration-1000 hover:bg-orange-600 hover:text-white
-}
-
-.footer_contact {
-    position: relative;
-    bottom: 0;
-}
-.footer_contact p {
-    text-transform: uppercase;
-    background: black;
-    border: 1px solid gray;
-    width: 100vw;
-    padding: 50px;
-}
-.footer_contact p:hover {
-    background: dodgerblue;
+    @apply bg-gray-800 uppercase ease-in-out duration-1000 hover:bg-orange-600
 }
 
 .footer-links {
