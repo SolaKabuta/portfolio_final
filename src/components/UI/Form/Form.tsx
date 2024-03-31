@@ -2,7 +2,7 @@ import './Form.css'
 const Form = () => {
 
     const handleCLick = () => {
-        alert ('message sent')
+        alert ('Nice ! But this form isn\'t working yet, feel free to reach out to me at solakabuta@gmail.com')
     }
 
     return (
