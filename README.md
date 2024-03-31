@@ -1,5 +1,6 @@
 # My Portfolio
-This is my personal portfolio website built with React, showcasing my skills and experience as a web developer.
+This is my personal portfolio website built with React, showcasing my skills and experience as a web developer. <br/>
+It's obviously still in the development phase. 
 
 ### Technologies:
 
@@ -40,7 +41,8 @@ In a near future I'd like to:
 
 Stay tuned!
 
-As I continue to develop this portfolio, I'll be adding more content and functionality. Feel free to reach out if you have any questions or feedback.
+As I continue to develop this portfolio, I'll be adding more content and functionality. <br/>
+Feel free to reach out if you have any questions or feedback.
 
 #### Screenshots:
 
