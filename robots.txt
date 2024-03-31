@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+# (Optional) You can add specific paths to disallow here.
+# For example, to disallow crawlers from accessing the admin directory:
+# Disallow: /admin/
