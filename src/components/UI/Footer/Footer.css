@@ -1,6 +1,6 @@
 /*FOOTER*/
 .footer-nav {
-    @apply bg-gray-800 uppercase ease-in-out duration-1000 hover:bg-orange-600
+    @apply uppercase ease-in-out duration-1000 hover:bg-orange-600
 }
 
 .footer-links {

@@ -11,12 +11,15 @@ const LazyAbout = React.lazy(() => import('./pages/About/About'));
 const LazyContact = React.lazy(() => import('./pages/Contact/Contact'));
 const LazyHorizontalScrollCarousel = React.lazy(() => import('./components/Features/WorkCarousel/HorizontalScrollCarousel'));
 
+
+
 function App() {
+
     return (
         <>
             <div className="nocursor">
                 {/* Suspense component to display a fallback while components are loading */}
-                <Suspense fallback={<div className={'w-screen h-screen grid place-content-center  animate-pulse bg-black'}>
+                <Suspense fallback={<div className={'w-screen h-screen grid place-content-center animate-pulse bg-black'}>
                     <img src={logo} alt=""/></div>}>
                     <MouseTrail className={'mix-blend-difference'} strokeColor={"#ff5722"} lineWidthStart={20} lag={0.7} lineDuration={2}/>
                     <Navbar />

@@ -6,11 +6,15 @@
     @apply w-[240px]
 }
 input {
-    @apply w-[510px] h-20 rounded-2xl text-orange-600 bg-gray-800
+    @apply w-[510px] h-20 rounded-2xl text-orange-600
 }
 
 input::placeholder, input:focus, input:focus-visible {
-    @apply text-orange-600 outline-0 pl-5
+    @apply text-white  outline-0 pl-5
+}
+
+input::placeholder:hover {
+    @apply text-orange-600
 }
 
 input:hover {
