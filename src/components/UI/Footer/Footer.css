@@ -1,12 +1,7 @@
 /*FOOTER*/
 .footer-nav {
-    @apply bg-black uppercase
+    @apply bg-gray-800 uppercase ease-in-out duration-1000 hover:bg-orange-600 hover:text-white
 }
-/*.input-txt [placeholder='Write something'] {*/
-/*  position: relative;*/
-/*  color: red;*/
-/*  top: 0;*/
-/*}*/
 
 .footer_contact {
     position: relative;
@@ -21,4 +16,12 @@
 }
 .footer_contact p:hover {
     background: dodgerblue;
+}
+
+.footer-links {
+    @apply flex justify-between align-middle
+}
+
+.footer-links a {
+    @apply ease-in-out duration-1000 hover:text-black
 }

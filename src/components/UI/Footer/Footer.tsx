@@ -5,7 +5,7 @@ const Footer = () => {
             <div
                 className={'w-screen py-1 px-[10%] footer-nav'}>
                     <div
-                        className={'flex justify-between align-middle'}>
+                        className={'footer-links'}>
                         <a target="_blank" href="https://github.com/SolaKabuta">Github</a>
                         <a target="_blank" href="https://www.linkedin.com/in/sola-kabuta/">Linkedin</a>
                         <a target="_blank" href="https://dribbble.com/SolaKabuta">Dribbble</a>
