@@ -35,7 +35,7 @@ In a near future I'd like to:
 - Add projects
 - Design and build responsive
 - Get higher performance
-- Fix Google Fonts performance (so it's actually disabled)
+- Fix Google Fonts performance (actually disabled)
 
 
 Stay tuned!

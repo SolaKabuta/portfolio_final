@@ -1,5 +1,10 @@
 import './Form.css'
 const Form = () => {
+
+    const handleCLick = () => {
+        alert ('message sent')
+    }
+
     return (
         <>
             <div>
@@ -22,6 +27,7 @@ const Form = () => {
                         <div
                             className={'flex justify-center'}>
                             <button
+                                onClick={handleCLick}
                                 className={'send-btn '}
                                 type={'submit'}>Send
                             </button>

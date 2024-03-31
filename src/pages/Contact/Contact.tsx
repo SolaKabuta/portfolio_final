@@ -3,6 +3,9 @@ import Form from "../../components/UI/Form/Form.tsx";
 import './Contact.css'
 
 const Contact = () => {
+
+
+
     return (
         <>
             <div
